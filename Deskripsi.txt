@@ -1,0 +1,16 @@
+TUGAS SUBMISSION WEB DASAR DICODING
+
+Program Sederhana Pendaftaran Ekstrakurikuler Sekolah
+
+Deskripsi :
+terdapat file .html .css dan .js
+Program memiliki tampilan responsive
+Program terdapat pengaplikasian DOM
+Program didesain untuk user mendaftar salah satu ekskul
+Pendaftaran hanya bisa dilakukan 1 akun,
+pendaftaran akun selanjutnya akan menghapus akun sebelumnya.
+
+Kekurangan :
+ketika masuk ke bagian id "content-detail", 
+maka yang di luar id tersebut tidak berfungsi.
+karena itu saya berikan button "kembali" untuk mengatasinya

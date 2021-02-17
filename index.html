@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Submission Dicoding</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" style="float: left; font-weight: bold; font-size: large;">E K S K U L</a>
+            <a onclick="newContent('identitas-detail')">About</a>
+            <div class="dropdown">
+                <a class="dropbtn">Menu
+                    <!-- <i class="fa fa-caret-down"></i> -->
+                </a>
+                <div class="dropdown-content">
+                    <a href="#futsal">Futsal</a>
+                    <a href="#sepak-bola">Sepak Bola</a>
+                    <a href="#bola-basket">Bola Basket</a>
+                    <a href="#bola-voli">Bola Voli</a>
+                    <a href="#pencak-silat">Pencak Silat</a>
+                    <a href="#pmr">PMR</a>
+                    <a href="#pramuka">Pramuka</a>
+                    <a href="#paskibra">Paskibra</a>
+                    <a href="#padus">Padus</a>
+                </div>
+            </div> 
+        </nav>
+        <div class="home-page">
+            <h2>Ekstrakurikuler</h2>
+            <p style="text-align: center;">Selamat Datang <br> Ayo! Daftarkan diri kalian sekarang juga.</p>
+            <button class="button-daftar" onclick="newContent('pendaftaran-detail')">Daftar</button>
+        </div>
+    </header>
+
+
+    <main>
+        <!-- Home -->
+        <div id="home" class="box">
+            <h3>Ekstrakurikuler</h3>
+            <p>
+                Ekstrakurikuler adalah kegiatan non-pelajaran formal yang dilakukan peserta didik sekolah atau universitas,
+                umumnya di luar jam belajar kurikulum standar. 
+                Kegiatan-kegiatan ini ada pada setiap jenjang pendidikan dari sekolah dasar sampai universitas. 
+                Kegiatan ekstrakurikuler ditujukan agar siswa dapat mengembangkan kepribadian, bakat, dan kemampuannya 
+                di berbagai bidang di luar bidang akademik. Kegiatan ini diadakan secara swadaya 
+                dari pihak sekolah maupun siswa-siswi itu sendiri 
+                untuk merintis kegiatan di luar jam pelajaran sekolah.
+            </p>
+        </div>
+
+        <!-- Contents -->
+        <div id="content">
+
+            <!-- Sub-Contents -->
+            <div class="content-flex">
+                <article id="futsal" class="sub-content box" onclick="newContent('futsal-detail')">
+                    <h2 class="toClick">Futsal</h2>
+                    <img src="assets/images/icon-futsal.png" class="icon-image" alt="futsal">
+                    <p></p>
+                </article>
+                <article id="sepak-bola" class="sub-content box" onclick="newContent('sepak-bola-detail')">
+                    <h2 class="toClick">Sepak Bola</h2>
+                    <img src="assets/images/icon-sepak-bola.png" class="icon-image" alt="sepak-bola">
+                    <p></p>
+                </article>
+                <article id="bola-basket" class="sub-content box" onclick="newContent('bola-basket-detail')">
+                    <h2 class="toClick">Bola Basket</h2>
+                    <img src="assets/images/icon-bola-basket.png" class="icon-image" alt="bola-basket">
+                    <p></p>
+                </article>
+            </div>
+
+            <div class="content-flex">
+                <article id="bola-voli" class="sub-content box" onclick="newContent('bola-voli-detail')">
+                    <h2 class="toClick">Bola Voli</h2>
+                    <img src="assets/images/icon-bola-voli.png" class="icon-image" alt="bola-voli">
+                    <p></p>
+                </article>
+                <article id="pencak-silat" class="sub-content box" onclick="newContent('pencak-silat-detail')">
+                    <h2 class="toClick">Pencak Silat</h2>
+                    <img src="assets/images/icon-pencak-silat.png" class="icon-image" alt="pencak-silat">
+                    <p></p>
+                </article>
+                <article id="pmr" class="sub-content box" onclick="newContent('pmr-detail')">
+                    <h2 class="toClick">PMR</h2>
+                    <img src="assets/images/icon-pmr.png" class="icon-image" alt="pmr">
+                    <p></p>
+                </article>
+            </div>
+
+            <div class="content-flex">
+                <article id="pramuka" class="sub-content box" onclick="newContent('pramuka-detail')">
+                    <h2 class="toClick">Pramuka</h2>
+                    <img src="assets/images/icon-pramuka.png" class="icon-image" alt="pramuka">
+                    <p></p>
+                </article>
+                <article id="paskibra" class="sub-content box" onclick="newContent('paskibra-detail')">
+                    <h2 class="toClick">Paskibra</h2>
+                    <img src="assets/images/icon-paskibra.png" class="icon-image" alt="paskibra">
+                    <p></p>
+                </article>
+                <article id="padus" class="sub-content box" onclick="newContent('padus-detail')">
+                    <h2 class="toClick">Paduan Suara</h2>
+                    <img src="assets/images/icon-paduan-suara.png" class="icon-image" alt="padus">
+                    <p></p>
+                </article>
+            </div>
+
+
+            <!-- Conten Detail -->
+            <div class="detail">
+                <div id="futsal-detail">
+                    <article class="content-detail box">
+                        <a href="index.html">
+                            <button class="button-daftar toClick">Kembali</button>
+                        </a>
+                        <h2>Futsal</h2>
+                        <img src="assets/images/futsal.jpg" class="image-detail" alt="">
+                        <p>
+                            Futsal adalah permainan bola yang dimainkan oleh dua tim, 
+                            yang masing-masing beranggotakan lima orang. 
+                            Tujuannya adalah memasukkan bola ke gawang lawan, 
+                            dengan memanipulasi bola dengan kaki. Selain lima pemain utama, 
+                            setiap regu juga diizinkan memiliki pemain cadangan. 
+                            Tidak seperti permainan sepak bola dalam ruangan lainnya, 
+                            lapangan futsal dibatasi garis, bukan net atau papan.
+                        </p>
+                        <table>
+                            <tr>
+                              <th>Ketua Ekskul</th>
+                              <th>Jadwal</th>
+                              <th>Prestasi Tertinggi</th>
+                            </tr>
+                            <tr>
+                              <td>M. Rafli Fauzy</td>
+                              <td>Sabtu, 07.30 - 9.30 WIB</td>
+                              <td>Juara I Futsal Cup tingkat Nasional</td>
+                            </tr>
+                        </table>
+                    </article>  
+                </div>
+    
+                <div id="sepak-bola-detail">
+                    <article class="content-detail box">
+                        <a href="index.html">
+                            <button class="button-daftar toClick">Kembali</button>
+                        </a>
+                        <h2>Sepak Bola</h2>
+                        <img src="assets/images/sepak-bola.jpg" class="image-detail" alt="">
+                        <p>
+                            Sepak bola (bahasa Inggris: Football atau Soccer) adalah cabang olahraga yang menggunakan
+                            bola yang umumnya terbuat dari bahan kulit dan dimainkan oleh dua tim yang masing-masing
+                            beranggotakan 11 (sebelas) orang pemain inti dan beberapa pemain cadangan. Memasuki abad
+                            ke-21, olahraga ini telah dimainkan oleh lebih dari 250 juta orang di 200 negara, yang
+                            menjadikannya olahraga paling populer di dunia. Sepak bola bertujuan untuk 
+                            mencetak gol sebanyak-banyaknya dengan memasukan bola ke gawang lawan. 
+                            Sepak bola dimainkan dalam lapangan terbuka yang berbentuk persegi panjang, 
+                            di atas rumput atau rumput sintetis.
+                        </p>
+                        <table>
+                            <tr>
+                              <th>Ketua Ekskul</th>
+                              <th>Jadwal</th>
+                              <th>Prestasi Tertinggi</th>
+                            </tr>
+                            <tr>
+                              <td>M. Wildan Fathoni</td>
+                              <td>Sabtu, 07.30 - 9.30 WIB</td>
+                              <td>Juara I Lomba Sepak Bola antar sekolah tingkat Kabupaten</td>
+                            </tr>
+                        </table>
+                    </article>
+                </div>
+
+                <div id="bola-basket-detail">
+                    <article class="content-detail box">
+                        <a href="index.html">
+                            <button class="button-daftar toClick">Kembali</button>
+                        </a>
+                        <h2>Bola Basket</h2>
+                        <img src="assets/images/basket.jpg" class="image-detail" alt="">
+                        <p>
+                            Bola basket (bahasa Inggris: basketball) adalah olahraga bola berkelompok 
+                            yang terdiri atas dua tim beranggotakan masing-masing lima orang yang saling
+                            bertanding mencetak poin dengan memasukkan bola ke dalam keranjang lawan.
+                            Bola basket sangat cocok untuk ditonton karena biasa dimainkan di ruang
+                            olahraga tertutup dan hanya memerlukan lapangan yang relatif kecil. 
+                            Selain itu, permainan bola basket juga lebih kompetitif karena tempo 
+                            permainan cenderung lebih cepat jika dibandingkan dengan olahraga bola yang lain, 
+                            seperti voli dan sepak bola.
+                        </p>
+                        <p>Ada 3 posisi utama dalam bermain basket, yaitu:</p>
+                        <ol>
+                            <li><strong>Forward,</strong> pemain yang tugas utamanya adalah mencetak poin dengan 
+                                memasukkan bola ke keranjang lawan.
+                            </li>
+                            <li>
+                                <strong>Defense,</strong> pemain yang tugas utamanya
+                                adalah menjaga pemain lawan agar pemain lawan kesulitan memasukkan bola, 
+                            </li>
+                            <li>
+                                <strong>Playmaker,</strong> pemain yang menjadi tokoh kunci permainan dengan mengatur
+                                alur bola dan strategi yang dimainkan oleh rekan-rekan setimnya.
+                            </li>
+                        </ol>
+                        <table>
+                            <tr>
+                              <th>Ketua Ekskul</th>
+                              <th>Jadwal</th>
+                              <th>Prestasi Tertinggi</th>
+                            </tr>
+                            <tr>
+                              <td>Virginia Reska Suci A.</td>
+                              <td>Sabtu, 07.30 - 9.30 WIB</td>
+                              <td>Juara II O2SN Bola Basket tingkat Provinsi</td>
+                            </tr>
+                        </table>
+                    </article>
+                </div>
+
+                <div id="bola-voli-detail">
+                    <article class="content-detail box">
+                        <a href="index.html">
+                            <button class="button-daftar toClick">Kembali</button>
+                        </a>
+                        <h2>Bola Voli</h2>
+                        <img src="assets/images/voli.jpg" class="image-detail" alt="">
+                        <p>
+                            Bola voli (bahasa Inggris: volleyball) adalah permainan olahraga yang dimainkan 
+                            oleh dua grup berlawanan. Masing-masing grup memiliki enam orang pemain. 
+                            Terdapat pula variasi permainan bola voli pantai yang masing-masing grup 
+                            hanya memiliki dua orang pemain. Olahraga Bola Voli dinaungi
+                            FIVB (Federation Internationale de Volleyball) sebagai induk organisasi internasional, 
+                            sedangkan di Indonesia, olahraga bola Voli dinaungi oleh PBVSI (Persatuan Bola Voli Seluruh Indonesia).
+                        </p>
+                        <table>
+                            <tr>
+                              <th>Ketua Ekskul</th>
+                              <th>Jadwal</th>
+                              <th>Prestasi Tertinggi</th>
+                            </tr>
+                            <tr>
+                              <td>Stefani</td>
+                              <td>Sabtu, 07.30 - 9.30 WIB</td>
+                              <td>Mengikuti seleksi O2SN tingkat Kabupaten</td>
+                            </tr>
+                        </table>
+                    </article>
+                </div>
+
+                <div id="pencak-silat-detail">
+                    <article class="content-detail box">
+                        <a href="index.html">
+                            <button class="button-daftar toClick">Kembali</button>
+                        </a>
+                        <h2>Pencak Silat</h2>
+                        <img src="assets/images/pencak-silat.jpg" class="image-detail" alt="">
+                        <p>
+                            Pencak silat atau silat adalah suatu seni bela diri tradisional yang
+                            berasal dari Kepulauan Nusantara(Indonesia). Seni bela diri ini secara 
+                            luas dikenal di Indonesia, Malaysia, Brunei, dan Singapura, Filipina selatan,
+                            dan Thailand selatan sesuai dengan penyebaran berbagai suku bangsa Nusantara.
+                        </p>
+                        <table>
+                            <tr>
+                              <th>Ketua Ekskul</th>
+                              <th>Jadwal</th>
+                              <th>Prestasi Tertinggi</th>
+                            </tr>
+                            <tr>
+                              <td>Jaenal Muslimin</td>
+                              <td>Sabtu, 07.30 - 9.30 WIB</td>
+                              <td>Juara I Championship Cup Kemenpora tingkat Nasional</td>
+                            </tr>
+                        </table>
+                    </article>
+                </div>
+
+                <div id="pmr-detail">
+                    <article class="content-detail box">
+                        <a href="index.html">
+                            <button class="button-daftar toClick">Kembali</button>
+                        </a>
+                        <h2>Palang Merah Remaja</h2>
+                        <img src="assets/images/pmr.jpg" class="image-detail" alt="">
+                        <p>
+                            Palang Merah Remaja (disingkat PMR) adalah wadah pembinaan dan pengembangan 
+                            anggota remaja PMI, yang selanjutnya disebut PMR.Terdapat di PMI kota atau
+                            kabupaten di seluruh Indonesia, dengan anggota lebih dari 5 juta orang, 
+                            anggota PMR merupakan salah satu kekuatan PMI dalam melaksanakan kegiatan-kegiatan 
+                            kemanusiaan dibidang kesehatan dan siaga bencana, mempromosikan prinsip-prinsip
+                            dasar gerakan palang merah dan bulan sabit merah internasional,
+                            serta mengembangkan kapasitas organisasi PMI.
+                        </p>
+                        <ul>Kebijakan PMI dan federasi tentang pembinaan Remaja bahwa:
+                            <li>
+                                Remaja merupakan prioritas pembinaan, baik dalam keanggotaan maupun kegiatan kepalangmerahan.
+                            </li>   
+                            <li>
+                                Remaja berperan penting dalam pengembangan kegiatan kepalangmerahan.
+                            </li>    
+                            <li>
+                                Remaja berperan penting dalam perencanaan, pelaksanaan kegiatan dan proses pengambilan keputusan untuk kegiatan PMI.
+                            </li>
+                            <li>
+                                Remaja adalah kader relawan
+                            </li>
+                            <li>
+                                Remaja calon pemimpin PMI pada masa depan.
+                            </li>
+                        </ul>
+                        <p>
+                            Palang Merah Remaja atau PMR adalah suatu organisasi binaan dari Palang Merah 
+                            Indonesia yang berpusat di sekolah-sekolah ataupun kelompok-kelompok masyarakat 
+                            (sanggar, kelompok belajar, dll.) yang bertujuan membangun dan mengembangkan 
+                            karakter Kepalangmerahan agar siap menjadi Relawan PMI pada masa depan.
+                        </p>
+                        <table>
+                            <tr>
+                              <th>Ketua Ekskul</th>
+                              <th>Jadwal</th>
+                              <th>Prestasi Tertinggi</th>
+                            </tr>
+                            <tr>
+                              <td>Aditia Permatasari</td>
+                              <td>Sabtu, 07.30 - 9.30 WIB</td>
+                              <td>Mengikuti Pelatihan PMI antar sekolah tingkat Kabupaten</td>
+                            </tr>
+                        </table>
+                    </article>
+                </div>
+
+                <div id="pramuka-detail">
+                    <article class="content-detail box">
+                        <a href="index.html">
+                            <button class="button-daftar toClick">Kembali</button>
+                        </a>
+                        <h2>Pramuka</h2>
+                        <img src="assets/images/pramuka.jpg" class="image-detail" alt="">
+                        <p>
+                            Kepramukaan adalah proses pendidikan di luar lingkungan sekolah dan di luar 
+                            lingkungan keluarga dalam bentuk kegiatan menarik, menyenangkan, sehat, teratur,
+                            terarah, praktis yang dilakukan di alam terbuka dengan Prinsip Dasar Kepramukaan
+                            dan Metode Kepramukaan, yang sasaran akhirnya pembentukan watak, akhlak, 
+                            dan budi pekerti luhur. Kepramukaan adalah sistem pendidikan kepanduan yang 
+                            disesuaikan dengan keadaan, kepentingan, dan perkembangan masyarakat, dan bangsa Indonesia.
+                        </p>
+                        <table>
+                            <tr>
+                              <th>Ketua Ekskul</th>
+                              <th>Jadwal</th>
+                              <th>Prestasi Tertinggi</th>
+                            </tr>
+                            <tr>
+                              <td>Hairul Anwar</td>
+                              <td>Sabtu, 07.30 - 9.30 WIB</td>
+                              <td>Juara I Lomba Kepramukaan tingkat Kabupaten</td>
+                            </tr>
+                        </table>
+                    </article>
+                </div>
+
+                <div id="paskibra-detail">
+                    <article class="content-detail box">
+                        <a href="index.html">
+                            <button class="button-daftar toClick">Kembali</button>
+                        </a>
+                        <h2>Pasukan Kibaran Bendera Pusaka</h2>
+                        <img src="assets/images/paskibra.jpg" class="image-detail" alt="">
+                        <p>
+                            Paskibraka adalah singkatan dari Pasukan Pengibar Bendera Pusaka dengan 
+                            tugas utamanya mengibarkan duplikat bendera pusaka dalam upacara peringatan
+                            proklamasi kemerdekaan Indonesia di 3 tempat, yakni tingkat Kabupaten/Kota
+                            (Kantor Bupati/Wali Kota), Provinsi (Kantor Gubernur), dan Nasional (Istana Merdeka).
+                            Anggotanya berasal dari pelajar SMA Sederajat kelas 1 atau 2.
+                            Penyeleksian anggotanya biasanya dilakukan sekitar bulan April untuk persiapan pengibaran pada 17 Agustus.
+                        </p>
+                        <p>
+                            Selama waktu seleksi sampai 16 Agustus, seorang anggota calon Paskibraka dinamakan
+                            "CAPASKA" atau Calon Paskibraka. Pada waktu penugasan 17 Agustus, anggota dinamakan "PASKIBRAKA",
+                            dan setelah 17 Agustus, dinamakan "PURNA PASKIBRAKA".
+                        </p>
+                        <ul>Tingkatan Paskibraka ada tiga yaitu:
+                            <li>Paskibraka Nasional - bertugas di Istana Merdeka</li>
+                            <li>Paskibraka Propinsi - bertugas di Pusat pemerintahan gubernur propinsi</li>
+                            <li>Paskibraka Kota - bertugas di Pusat pemerintahan wali kota/kabupaten</li>
+                        </ul>
+                        <table>
+                            <tr>
+                              <th>Ketua Ekskul</th>
+                              <th>Jadwal</th>
+                              <th>Prestasi Tertinggi</th>
+                            </tr>
+                            <tr>
+                              <td>Mega Kumala Sari</td>
+                              <td>Sabtu, 07.30 - 9.30 WIB</td>
+                              <td>Masuk Daftar Pasukan Pengibaran Bendera Pusaka Nasional 17 Agustus</td>
+                            </tr>
+                        </table>
+                    </article>
+                </div>
+
+                <div id="padus-detail">
+                    <article class="content-detail box">
+                        <a href="index.html">
+                            <button class="button-daftar toClick">Kembali</button>
+                        </a>
+                        <h2>Paduan Suara</h2>
+                        <img src="assets/images/padus.jpg" class="image-detail" alt="">
+                        <p>
+                            Paduan suara atau kor (dari bahasa Belanda, koor) merupakan istilah yang 
+                            merujuk kepada ensembel musik yang terdiri atas penyanyi-penyanyi maupun 
+                            musik yang dibawakan oleh ensembel tersebut. Umumnya suatu kelompok paduan
+                            suara membawakan musik paduan suara yang terdiri atas beberapa bagian suara 
+                            (bahasa Inggris: part, bahasa Jerman: Stimme).
+                        </p>
+                        <p>
+                            Dalam pengertian ini, paduan suara juga mencakup kelompok vokal (vocal group),
+                            walaupun kadang kedua istilah ini saling dibedakan.
+                        </p>
+                        <table>
+                            <tr>
+                              <th>Ketua Ekskul</th>
+                              <th>Jadwal</th>
+                              <th>Prestasi Tertinggi</th>
+                            </tr>
+                            <tr>
+                              <td>Syafira</td>
+                              <td>Sabtu, 07.30 - 9.30 WIB</td>
+                              <td>Menjadi Tim Paduan Suara upacara bendera di sekolah</td>
+                            </tr>
+                        </table>
+                    </article>
+                </div>
+
+
+                <!-- Identitas Detail -->
+                <div id="identitas-detail">
+                    <article class="content-detail box">
+                        <a href="index.html">
+                            <button class="button-daftar toClick">Kembali</button>
+                        </a>
+                        <header>
+                            <h2 style="text-align: center;">Informasi Identitas Diri</h2>
+                            <figure>
+                                <img src="assets/images/profilePict.jpg" class="profile-pict-detail" alt="">
+                                <h3>Abdul Jabbar Hafizh</h3>
+                            </figure>
+                        </header>
+                        
+                        <section style="text-align: justify; margin: auto;">
+                            <h3>Umum</h3>
+                            <ul>
+                                <li><strong>Nama </strong>Abdul Jabbar Hafizh</li>
+                                <li><strong>Usia </strong>19 Tahun</li>
+                                <li><strong>TTL </strong>Jakarta, 12 Agustus 2000</li>
+                                <li><strong>Alamat </strong>Perumahan Griya Bunga Asri blok A No. 5 RT.03 RW.08, Gunung Sindur, Bogor, Jawa Barat.</li>
+                            </ul>
+
+                            <h3>Jenjang Pendidikan</h3>
+                            <ul>
+                                <li><strong>TK </strong>TK Islam Al-Fath</li>
+                                <li><strong>SD </strong>SDN 02 Gunung Sindur</li>
+                                <li><strong>SMP </strong>SMPN 1 Parung</li>
+                                <li><strong>SMA </strong>SMAN 1 Parung</li>
+                                <li><strong>Institusi </strong>Universitas Islam Negeri Syarif Hidayatullah Jakarta</li>
+                                <ul>
+                                    <li><strong>Fakultas </strong>Sains dan Teknologi</li>
+                                    <li><strong>Jurusan </strong>Teknik Informatika</li>
+                                    <li><strong>Angkatan </strong>2018</li>
+                                </ul>
+                            </ul>
+
+                            <h3>Prestasi saat Sekolah</h3>
+                            <ul>
+                                <li>Juara II Lomba Da'i di SMA</li>
+                                <li>Juara II Olimpiade Olahraga Siswa Nasional cabang olahraga Pencak Silat</li>
+                                <li>Mengikuti Kompetisi Pencak Silat tingkat Internasional</li>
+                            </ul>
+
+                            <h3>Skills</h3>
+                            <ul>
+                                <li><strong>C </strong>90%</li>
+                                <li><strong>Java </strong>Basic</li>
+                                <li><strong>HTML, CSS </strong>90%</li>
+                                <li><strong>Javascript </strong>Basic</li>
+                                <li><strong>PHP </strong>70%</li>
+                            </ul>
+
+                            <h3>Pengalaman</h3>
+                            <ul>
+                                <li>Magang 3 bulan FrontEnd Developer di Loopinc.id</li>
+                            </ul>
+                        </section>
+                    </article>
+                </div>
+
+
+                <!-- Pendaftaran Detail -->
+                <div id="pendaftaran-detail">
+                    <article class="content-detail box">
+                        <a href="index.html">
+                            <button class="button-daftar toClick">Kembali</button>
+                        </a>
+                        <form id="register-form">
+                            <table>
+                                <h2>Form Pendaftaran</h2>
+                                <tr>
+                                    <th><label for="nama-reg">Nama</label></th>
+                                    <td><input type="text" id="nama-reg" placeholder="Nama" required="required"></td>
+                                </tr>
+                                <tr>
+                                    <th><label for="email-reg">Email</label></th>
+                                    <td><input type="email" id="email-reg" placeholder="Email" required="required"></td>
+                                </tr>
+                                <tr>
+                                    <th><label for="pass-reg">Password</label></th>
+                                    <td><input type="password" id="pass-reg" placeholder="Password" required="required"></td>
+                                </tr>
+                                <tr>
+                                    <th><label for="ekskul-reg">Ekskul</label></th>
+                                    <td>
+                                        <select id="ekskul-reg">
+                                            <option value="Futsal">Futsal</option>
+                                            <option value="Sepak Bola">Sepak Bola</option>
+                                            <option value="Bola Basket">Bola Basket</option>
+                                            <option value="Bola Voli">Bola Voli</option>
+                                            <option value="Pencak Silat">Pencak Silat</option>
+                                            <option value="PMR">PMR</option>
+                                            <option value="Pramuka">Pramuka</option>
+                                            <option value="Paskibra">Paskibra</option>
+                                            <option value="Paduan Suara">Paduan Suara</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </table><br>
+                            <button class="button-daftar toClick" id="show" onclick="regist()">Submit</button>
+                        </form>
+                    </article>
+                </div>
+
+
+                <!-- Login Detail -->
+                <div id="login-detail">
+                    <article class="content-detail box" id="result-nama"></article>
+                </div>
+            </div>
+        </div>
+        
+        <aside>
+
+            <article>
+                <header id="login">
+                    <h2>Login</h2>
+                    <h6>
+                        <input style="text-align: center;" type="email" name="" id="email-baru" placeholder="Email" required="required">
+                    </h6>
+                    <h6>
+                        <input style="text-align: center;" type="password" name="" id="pass-baru" placeholder="Password" required="required">
+                    </h6>
+                    <h6>
+                        <button class="button-daftar toClick" type="submit" onclick="login()">Login</button>
+                    </h6>
+                    <p style="text-align: center;">Belum punya akun ? <strong style="cursor: pointer;" onclick="newContent('pendaftaran-detail')">Daftar</strong></p>
+                </header>
+            </article>
+
+            <article class="box">
+                <header class="header-aside">
+                    <h2 style="text-align: center;" onclick="newContent('identitas-detail')" class="toClick">Identitas Diri</h2>
+                    <figure>
+                        <img src="assets/images/profilePict.jpg" class="profile-pict">
+                    </figure>
+                </header>
+
+                <section>
+                    <h3 style="text-align: center;">Abdul Jabbar Hafizh</h3>
+                    <h4>19 Tahun <br> Laki-laki</h4>
+                    <p>
+                        Mahasiswa Universitas Islam Negeri Syarif Hidayatullah Jakarta. 
+                        Angkatan 2018 Fakultas Sains dan Teknologi, jurusan Teknik Infomatika.
+                    </p>
+
+                    <div>
+                        <a class="sosmed" href="https://www.instagram.com/jabbarhafizh_/">
+                            <img class="icon-sosmed" src="assets/images/icon-ig.png" alt="">
+                        </a>
+                        <a class="sosmed" href="https://www.youtube.com/channel/UCKIHu0IaWlnalArDfyo-vrg">
+                            <img class="icon-sosmed" src="assets/images/icon-yt.png" alt="">
+                        </a>
+                        <a class="sosmed" href="https://api.whatsapp.com/send?phone=6282112637227">
+                            <img class="icon-sosmed" src="assets/images/icon-wa.png" alt="">
+                        </a>
+                    </div>
+                </section>
+            </article>
+
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy;2020 | @jabbarhafizh_</p>
+    </footer>
+
+    <script type="text/javascript" language="javascript" src="assets/main.js"></script>
+</body>
+</html>
